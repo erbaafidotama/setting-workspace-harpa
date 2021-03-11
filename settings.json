@@ -1,0 +1,104 @@
+{
+    "workbench.colorTheme": "Dracula Soft",
+      "editor.fontSize": 15,
+      "editor.lineHeight": 25,
+      "[javascript]": {
+          "editor.defaultFormatter": "esbenp.prettier-vscode"
+      },
+      "[svelte]": {
+        "editor.defaultFormatter": "svelte.svelte-vscode"
+      },
+      "go.formatTool": "goimports",
+      "editor.fontFamily": "Fira Code",
+      "editor.fontLigatures": true,
+      // "editor.fontWeight": "600", // Medium
+      "editor.fontWeight": "500",
+      // "editor.semanticHighlighting.enabled": false,
+  
+      "better-comments.tags": [
+          {
+            "tag": "!",
+            "color": "#FF2D00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+          },
+          {
+            "tag": "?",
+            "color": "#3498DB",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+          },
+          {
+            "tag": "//",
+            "color": "#474747",
+            "strikethrough": true,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+          },
+          {
+            "tag": "todo",
+            "color": "#FF8C00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+          },
+          {
+            "tag": "*",
+            "color": "#0000ff",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": true
+          }
+        ],
+        "workbench.iconTheme": "vscode-icons",
+        "diffEditor.ignoreTrimWhitespace": false,
+        "[dart]": {
+          "editor.formatOnSave": true,
+          "editor.formatOnType": true,
+          "editor.rulers": [
+            80
+          ],
+          "editor.selectionHighlight": false,
+          "editor.suggest.snippetsPreventQuickSuggestions": false,
+          "editor.suggestSelection": "first",
+          "editor.tabCompletion": "onlySnippets",
+          "editor.wordBasedSuggestions": false
+        },
+        "dart.flutterSdkPath": "/home/erba/Documents/development/flutter",
+        "[css]": {
+          "editor.defaultFormatter": "HookyQR.beautify"
+        },
+        "tabnine.experimentalAutoImports": true,
+        "kite.showWelcomeNotificationOnStartup": false,
+        "telemetry.enableTelemetry": false,
+        "search.exclude": {
+          "**/node_modules": true,
+          "**/bower_components": true,
+          "**/env": true,
+          "**/venv": true
+        },
+        "files.exclude": {
+          "**/.git": true,
+          "**/.DS_Store": true,
+          "**/.vscode": true,
+          "**/__pycache__": true,
+          "**/.pytest_cache": true,
+          "**/node_modules": true,
+          "venv": true,
+          "*.sublime-*": true,
+          "env*": true
+        },
+        "workbench.productIconTheme": "material-product-icons"
+  }
