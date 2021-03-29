@@ -15,12 +15,12 @@
 ff02::1    ip6-allnodes
 ff02::2    ip6-allrouters
 
-# 192.168.90.143		apps.harpa-go.com	abc.harpa-go.com	harpa-go.com 	trees.harpa-go.com	ocbc.harpa-go.com	ocbc-test.harpa-go.com	ocbc-uat.harpa-go.com	Harpacss.trees.co.id
+# 192.168.90.143		apps.harpa-go.com	abc.harpa-go.com	harpa-go.com 	trees.harpa-go.com	ocbc.harpa-go.com	ocbc-test.harpa-go.com	ocbc-uat.harpa-go.com Harpacss.trees.co.id  psf.harpa-go.com
 # 192.168.90.143		abc.harpa-go.com
 # 192.168.90.143		harpa-go.com
 # 192.168.1.163		harpa-go.com
 # 192.168.1.163		abc.harpa-go.com
-127.0.0.1			apps.harpa-go.com	abc.harpa-go.com	trees.harpa-go.com	ocbc.harpa-go.com	ocbc-test.harpa-go.com	ocbc-uat.harpa-go.com	Harpacss.trees.co.id
+127.0.0.1			apps.harpa-go.com	abc.harpa-go.com	trees.harpa-go.com	ocbc.harpa-go.com	ocbc-test.harpa-go.com	ocbc-uat.harpa-go.com	Harpacss.trees.co.id  psf.harpa-go.com
 # 127.0.0.1			ocbc.harpa-go.com apps.harpa-go.com
 # 127.0.0.1			abc.harpa-go.com
 # 127.0.0.1			trees.harpa-go.com
@@ -37,10 +37,10 @@ ff02::2    ip6-allrouters
 # 192.168.90.227  web.harpa-go.com
 # 192.168.90.226  ocbc-test.harpa-go.com ocbc.harpa-go.com apps.harpa-go.com ocbc-uat.harpa-go.com
 
-# OCBC UAT
-# 192.168.100.153                web.harpa-go.com
-# 192.168.100.155                apps.harpa-go.com   ocbc-uat.harpa-go.com
-# 192.168.100.153	web.harpa-go.com    apps.harpa-go.com   ocbc-uat.harpa-go.com
+#UAT
+# 192.168.100.153	web.harpa-go.com
+# 192.168.100.155	apps.harpa-go.com	ocbc-uat.harpa-go.com
+# 192.168.100.153	web.harpa-go.com	apps-uat.harpa-go.com	ocbc-uat.harpa-go.com	trees-uat.harpa-go.com
 
 
 #Ko C
