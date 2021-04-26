@@ -1,5 +1,5 @@
 {
-    "workbench.colorTheme": "Dracula Soft",
+    "workbench.colorTheme": "Radical",
       "editor.fontSize": 15,
       "editor.lineHeight": 25,
       "[javascript]": {
@@ -100,5 +100,12 @@
           "*.sublime-*": true,
           "env*": true
         },
-        "workbench.productIconTheme": "material-product-icons"
+        "workbench.productIconTheme": "material-product-icons",
+        "gitlens.defaultDateFormat": null,
+        "workbench.editorAssociations": [
+          {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+          }
+        ]
   }
